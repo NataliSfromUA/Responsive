@@ -1,14 +1,17 @@
 :root {
   --primary-text-color: #413e3e;
   --primary-color: #f85e33;
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 body {
+  margin-top: 20px;
   text-align: center;
   color: var(--primary-text-color);
 }
 h1 {
   font-size: 96px;
   color: var(--primary-color);
+  margin: 0;
 }
 h2 {
   font-size: 48px;
@@ -25,9 +28,11 @@ button {
 
 #contact-button {
   background-color: #f85e33;
+  box-shadow: var(--box-shadow);
 }
 #about-button {
   background-color: #ffffff;
+  box-shadow: var(--box-shadow);
 }
 #contact-button:hover,
 #about-button:hover {
