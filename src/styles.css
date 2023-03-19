@@ -51,9 +51,11 @@ a:visited {
   display: flex;
   justify-content: space-evenly;
 }
+.metext {
+  background-color: var(--primary-color);
+  border-radius: 20px;
+}
 p {
   padding: 10px;
   margin: 20px;
-  background-color: var(--primary-color);
-  border-radius: 20px;
 }
