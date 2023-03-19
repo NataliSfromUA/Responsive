@@ -1,3 +1,54 @@
+:root {
+  --primary-text-color: #413e3e;
+  --primary-color: #f85e33;
+}
 body {
   text-align: center;
+  color: var(--primary-text-color);
+}
+h1 {
+  font-size: 96px;
+  color: var(--primary-color);
+}
+h2 {
+  font-size: 48px;
+}
+h3 {
+  font-size: 24px;
+}
+button {
+  padding: 20px;
+  margin: 10px;
+  border-radius: 10px;
+  border-color: var(--primary-color);
+}
+
+#contact-button {
+  background-color: #f85e33;
+}
+#about-button {
+  background-color: #ffffff;
+}
+#contact-button:hover,
+#about-button:hover {
+  background-color: #f1b9a9;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+a:visited {
+  color: purple;
+}
+.bodytext {
+  display: flex;
+  justify-content: space-evenly;
+}
+p {
+  padding: 10px;
+  margin: 20px;
+  background-color: var(--primary-color);
+  border-radius: 20px;
 }
